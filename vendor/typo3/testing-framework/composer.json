@@ -1,0 +1,51 @@
+{
+  "name": "typo3/testing-framework",
+  "description": "The TYPO3 testing framework provides base classes for unit, functional and acceptance testing.",
+  "keywords": [
+    "typo3",
+    "testing",
+    "tests"
+  ],
+  "homepage": "https://typo3.org/",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "TYPO3 CMS Core Team",
+      "role": "Developer",
+      "homepage": "https://forge.typo3.org/projects/typo3cms-core"
+    },
+    {
+      "name": "The TYPO3 Community",
+      "role": "Contributor",
+      "homepage": "https://typo3.org/community/"
+    }
+  ],
+  "support": {
+    "general": "https://typo3.org/support/",
+    "issues": "https://github.com/TYPO3/testing-framework/issues"
+  },
+  "require": {
+    "phpunit/phpunit": "^7.5.6 || ^8",
+    "mikey179/vfsstream": "~1.6.0",
+    "typo3fluid/fluid": "^2.5",
+    "typo3/cms-core": "10.*.*@dev",
+    "typo3/cms-backend": "10.*.*@dev",
+    "typo3/cms-frontend": "10.*.*@dev",
+    "typo3/cms-extbase": "10.*.*@dev",
+    "typo3/cms-fluid": "10.*.*@dev",
+    "typo3/cms-recordlist": "10.*.*@dev"
+  },
+  "suggest": {
+    "codeception/codeception": "^3",
+    "typo3/cms-styleguide": "^9.0"
+  },
+  "config": {
+    "vendor-dir": ".Build/vendor",
+    "bin-dir": ".Build/bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "TYPO3\\TestingFramework\\": "Classes/"
+    }
+  }
+}
