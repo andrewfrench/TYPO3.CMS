@@ -3,7 +3,7 @@
  ddev manages this file and may delete or overwrite the file unless this comment is removed.
  */
 
-$GLOBALS['TYPO3_CONF_VARS']['SYS']['trustedHostsPattern'] = 'test-v10.ddev.site(:\\d+)?|localhost(:\\d+)?|127.0.0.1(:\\d+)?|.*\.ngrok\.io(:\\d+)?';
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['trustedHostsPattern'] = '.*';
 
 $GLOBALS['TYPO3_CONF_VARS']['DB']['Connections']['Default'] = array_merge(
     // on first install, this could be not set yet

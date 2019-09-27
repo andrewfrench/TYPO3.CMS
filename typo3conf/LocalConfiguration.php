@@ -58,7 +58,7 @@ return [
     'SYS' => [
         'devIPmask' => '',
         'displayErrors' => 0,
-        'encryptionKey' => '07475859be8bf871e725e73b8ea9cdda606a6ac1a363f3d505cd91723fd201ac30872109d7ffbff4e3451012aaab0eec',
+        'encryptionKey' => 'dbcc253d349922cdcf40e8c7687fa39e2dfa7802d69e6d3ecdc02a4fa050005e40e79f6e904fe8e68118249446d8fac3',
         'exceptionalErrors' => 4096,
         'features' => [
             'unifiedPageTranslationHandling' => true,
