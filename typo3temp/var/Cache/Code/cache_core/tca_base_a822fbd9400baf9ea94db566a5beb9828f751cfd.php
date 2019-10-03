@@ -10350,6 +10350,74 @@ return array (
         ),
       ),
     ),
+    'tx_scheduler_task_group' => 
+    array (
+      'ctrl' => 
+      array (
+        'label' => 'groupName',
+        'tstamp' => 'tstamp',
+        'title' => 'LLL:EXT:scheduler/Resources/Private/Language/locallang_tca.xlf:tx_scheduler_task_group',
+        'crdate' => 'crdate',
+        'cruser_id' => 'cruser_id',
+        'delete' => 'deleted',
+        'sortby' => 'sorting',
+        'typeicon_classes' => 
+        array (
+          'default' => 'mimetypes-x-tx_scheduler_task_group',
+        ),
+        'adminOnly' => true,
+        'rootLevel' => 1,
+        'enablecolumns' => 
+        array (
+          'disabled' => 'hidden',
+        ),
+        'searchFields' => 'groupName',
+      ),
+      'interface' => 
+      array (
+        'showRecordFieldList' => 'hidden,groupName',
+      ),
+      'columns' => 
+      array (
+        'groupName' => 
+        array (
+          'label' => 'LLL:EXT:scheduler/Resources/Private/Language/locallang_tca.xlf:tx_scheduler_task_group.groupName',
+          'config' => 
+          array (
+            'type' => 'input',
+            'size' => 35,
+            'max' => 80,
+            'eval' => 'required,unique,trim',
+            'softref' => 'substitute',
+          ),
+        ),
+        'description' => 
+        array (
+          'label' => 'LLL:EXT:scheduler/Resources/Private/Language/locallang_tca.xlf:tx_scheduler_task_group.description',
+          'config' => 
+          array (
+            'type' => 'text',
+          ),
+        ),
+        'hidden' => 
+        array (
+          'label' => 'LLL:EXT:lang/Resources/Private/Language/locallang_general.xlf:LGL.disable',
+          'exclude' => true,
+          'config' => 
+          array (
+            'type' => 'check',
+            'default' => 0,
+          ),
+        ),
+      ),
+      'types' => 
+      array (
+        1 => 
+        array (
+          'showitem' => '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,groupName,--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,hidden,--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:notes,description,--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:extended',
+        ),
+      ),
+    ),
     'sys_note' => 
     array (
       'ctrl' => 

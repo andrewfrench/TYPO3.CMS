@@ -14,6 +14,15 @@ return [
             ],
         ],
     ],
+    'EXT' => [
+        'extConf' => [
+            'backend' => 'a:6:{s:14:"backendFavicon";s:0:"";s:11:"backendLogo";s:0:"";s:20:"loginBackgroundImage";s:0:"";s:13:"loginFootnote";s:0:"";s:19:"loginHighlightColor";s:0:"";s:9:"loginLogo";s:0:"";}',
+            'extensionmanager' => 'a:2:{s:21:"automaticInstallation";i:1;s:11:"offlineMode";i:0;}',
+            'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
+            'saltedpasswords' => 'a:6:{s:3:"BE.";a:4:{s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\Pbkdf2Salt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}s:3:"FE.";a:5:{s:7:"enabled";i:1;s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\Pbkdf2Salt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}s:20:"checkConfigurationBE";s:1:"0";s:21:"checkConfigurationBE2";s:1:"0";s:20:"checkConfigurationFE";s:1:"0";s:21:"checkConfigurationFE2";s:1:"0";}',
+            'scheduler' => 'a:3:{s:11:"enableBELog";i:1;s:11:"maxLifetime";i:1440;s:15:"showSampleTasks";i:1;}',
+        ],
+    ],
     'EXTENSIONS' => [
         'backend' => [
             'backendFavicon' => '',

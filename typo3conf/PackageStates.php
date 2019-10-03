@@ -83,6 +83,9 @@ return [
         'reports' => [
             'packagePath' => 'typo3/sysext/reports/',
         ],
+        'scheduler' => [
+            'packagePath' => 'typo3/sysext/scheduler/',
+        ],
         'sys_note' => [
             'packagePath' => 'typo3/sysext/sys_note/',
         ],
